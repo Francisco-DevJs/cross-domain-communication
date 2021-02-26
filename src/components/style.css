@@ -1,0 +1,44 @@
+
+
+
+.form{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    display:inline;
+    display:inline;
+    text-align: center;
+    top:2rem;
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)
+}
+
+input , label{
+
+    color:rgb(75, 74, 74);
+    display:block;
+   
+    margin:0.3rem;
+    
+}
+input{
+    padding: 4px;
+    border: rgb(212, 210, 210) 1px solid;
+    margin: 0.5rem 3rem 1.5rem 3rem;
+
+}
+label{
+    font-weight: bolder;
+    text-align: left;
+    margin: auto 2rem;
+}
+
+button{
+    border: none;
+    font-weight: bolder;
+    height: 2rem;
+    color:white;
+    background-color: limegreen;
+    margin:1.5rem ;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)
+}
